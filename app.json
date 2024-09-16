@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "SyK",
+    "slug": "SyK",
+    "version": "1.0.0",
+    "scheme": "SyK",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assestsBundlePatterns":[
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "package": "com.kyf.SyK"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.kyf.SyK"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ]
+  }
+}
